@@ -226,7 +226,7 @@ function portfolioComponent ({ data = {}, theme = {} } = {}) {
   }
   function unhoverPortfolio() { yo.update(element, template()) }
   function openNewTab() {
-    var url = "https://zgubidanac.github.io/quiz/"
+    var url = "https://zgubidanac.github.io/kviz/"
     var tab = window.open(url, '_blank')
     tab.focus()
   }
